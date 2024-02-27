@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import FirstPage from './pages/firstPage';
+import Profile from './pages/profile';
+import Image from './images/earbud.jpg'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <FirstPage />
+    <Profile />
   </React.StrictMode>
 );
 

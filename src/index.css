@@ -45,3 +45,7 @@ code {
     transform: rotate(360deg);
   }
 }
+
+.avatar{
+  border-radius: 50;
+}
